@@ -13,6 +13,9 @@ namespace StartSel
     {
         static void Main(string[] args)
         {
+            IWebDriver driver;
+            driver = new FirefoxDriver();
+            driver.Navigate().GoToUrl("http://google.com.ua");
         }
     }
 }
